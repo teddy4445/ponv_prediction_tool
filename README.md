@@ -1,7 +1,21 @@
-# Predicting Early and Delayed Postoperative Nausea And Vomiting Using Machine Learning: A Model Development and Validation Study
+# Predicting Postoperative Nausea And Vomiting Using Machine Learning: A Model Development and Validation Study
 
 ## Abstract
-Postoperative nausea and vomiting (PONV) is one of the most frequently occurring complications in patients undergoing surgery with general anesthesia. It is one of the most reported causes of distress and dissatisfaction among surgical patients in the early postoperative hours. Current PONV prediction tools are used to reduce PONV, producing unsatisfactory results. In this study, we aimed to develop prognostic PONV prediction tools for early and delayed PONV that provide satisfactory prediction performance. In this model development and validation study, we used post-prospective data of adult patients admitted to the post-anesthesia care unit who had undergone surgical procedures conducted under general anesthesia at The Sheba Medical Center, Israel, between 1 September 2018 and 1 September 2023. Using this data, we developed an ensemble model of machine learning algorithms which is trained on roughly 35 thousand patients' data. We use the \textit{k}-fold cross-validation method followed by a split to train and test the data that optimally preserve the socio-demographic features of the patients such as age, gender, and smoking habits using the Bee Colony algorithm. We identified data for 54672 patients, with 2706 (4.93\%) and 8128 (14.98\%) patients suffering from early and delayed PONV, respectively. We show that using this data, the obtained PONV prediction tools are able to correctly predict early and delayed PONV 84.0\% and 77.3\% of the time which outperformed the second-best PONV prediction tool (Koivuranta score) by 13.4\% and 12.9\%, respectively. Moreover, a feature importance analysis reveals that the proposed prediction tools align with previous clinical knowledge, assuring its evaluability. An accurate PONV prediction tool can be used by clinicians in general and anesthesiologists, in particular, to evaluate a surgery plan and provide better clinical care for patients. Further evaluation of the proposed PONV prediction tool should be extended to an automatic suggestion tool. \\
+
+Background:
+Postoperative nausea and vomiting (PONV) is a frequently observed complication in patients undergoing surgery under general anesthesia. Moreover, it is a frequent cause of distress and dissatisfaction in the early postoperative period. Currently, the classical scores used for predicting PONV have not yielded satisfactory results. Therefore, prognostic models for the prediction of early and delayed PONV were developed in this study to achieve satisfactory predictive performance.
+
+Methods:
+The retrospective data of inpatient adult patients admitted to the post-anesthesia care unit after undergoing surgical procedures under general anesthesia at the Sheba Medical Center, Israel, between September 1, 2018, and September 1, 2023, were used in this study. An ensemble model of machine-learning algorithms trained on the data of 35003 patients was developed. The k-fold cross-validation method was used followed by splitting the data to train and test sets that optimally preserve the sociodemographic features of the patients.
+
+Findings:
+Among the 35003 patients, early and delayed PONV were observed in 1340 (3.82%) and 6582 (18.80%) patients, respectively. The proposed PONV prediction models correctly predicted early and delayed PONV in 83.6% and 74.8% of cases, respectively, outperforming the second-best PONV prediction score (Koivuranta score) by 13.0% and 10.4%, respectively. Feature importance analysis revealed that the performance of the proposed prediction tools aligned with previous clinical knowledge, indicating their utility.
+
+Interpretation:
+The machine learning-based models developed in this study enabled improved PONV prediction, thereby facilitating personalized care and improved patient outcomes.
+
+Funding:
+This study represents an independent research project funded by Ariel University and the Holon Institute of Technology (grant number RA2300000519).
 
 ## Table of contents
 1. [Code usage](#code_usage)
@@ -24,10 +38,10 @@ Postoperative nausea and vomiting (PONV) is one of the most frequently occurring
 Please cite the SciMED work if you compare, use, or build on it:
 ```
 @article{glebov2023ponv,
-        title={Predicting Early and Delayed Postoperative Nausea And Vomiting Using Machine Learning: A Model Development and Validation Study},
-        author={Glebov, M. and Lazebnik, T. and Bunimovich, S. and Orkin, B.},
+        title={Predicting Postoperative Nausea And Vomiting Using Machine Learning: A Model Development and Validation Study},
+        author={Glebov, M. and Lazebnik, T. and Orkin, B. and Berkenstadt, H. and Bunimovich, S. },
         journal={<<TBD>>},
-        year={2023}
+        year={2025}
 }
 ```
 
@@ -50,5 +64,5 @@ We would love you to contribute to this project, pull requests are very welcome!
 <a name="contact"/>
 
 ## Contact
-* Teddy Lazebnik - [email](mailto:t.lazebnik@ucl.ac.uk) | [LinkedInֿ](https://www.linkedin.com/in/teddy-lazebnik/)
+* Teddy Lazebnik - [email](mailto:lazebnik.teddy@gmail.com) | [LinkedInֿ](https://www.linkedin.com/in/teddy-lazebnik/)
 
